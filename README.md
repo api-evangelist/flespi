@@ -1,4 +1,4 @@
-# flespi (Gurtam)
+# flespi
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-flespi (Gurtam) is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://flespi.com/
+flespi, part of Gurtam, provides a universal telematics gateway, parser and API platform for IoT and vehicle data. It offers raw data ingestion, transformation, real‑time analytics, video telematics, device management, MQTT broker, and a comprehensive REST API for developers to integrate and scale connected solutions.
+
+**Areas:** Telematics · IoT · API · Data Ingestion · Real-time Analytics
+
+## flespi on APIs.io
+
+Everything profiled for flespi is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/flespi/](https://apis.io/providers/flespi/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [flespi Assets API](https://apis.io/apis/flespi/flespi-assets-api/) — Assets are virtual entities in flespi that represent physical objects or resources that can be monitored by different tracking devices over time. An asset…
+- [flespi Calculators API](https://apis.io/apis/flespi/flespi-calculators-api/) — API for [flespi analytics](https://flespi.com/kb/analytics-reports-and-events-engine) management. The API allows you to define the rules for how to split…
+- [flespi Changelog API](https://apis.io/apis/flespi/flespi-changelog-api/) — Changelog posts of the flespi telematics hub system and related applications. To stay current with telematics hub updates, subscribe to…
+- [flespi Channels API](https://apis.io/apis/flespi/flespi-channels-api/) — [Channel](https://flespi.com/kb/channel-entry-point-to-gateway) is a protocol-specific entry point for tracking devices to the [flespi telematics…
+- [flespi Devices API](https://apis.io/apis/flespi/flespi-devices-api/) — [Registered device](https://flespi.com/kb/device-virtual-instance-of-real-tracker) represents an IoT or telematics tracking equipment capable of sending…
+- [flespi Geofences API](https://apis.io/apis/flespi/flespi-geofences-api/) — Geofences allow you to enhance your telematics solution by incorporating geocoding functionality. A geofence is an independent entity characterized by **id,…
+- [flespi Groups API](https://apis.io/apis/flespi/flespi-groups-api/) — [Groups](https://flespi.com/kb/groups-organize-devices-and-simplify-mass-assignments) help to organize of [flespi…
+- [flespi Modems API](https://apis.io/apis/flespi/flespi-modems-api/) — API to manage modems. [Modem](https://flespi.com/kb/modem-instance-to-send-sms) can be used to send commands as SMS messages to devices. Depending on the…
+- [flespi Plugins API](https://apis.io/apis/flespi/flespi-plugins-api/) — [Plugins](https://flespi.com/kb/plugins-functionality-extensions-for-flespi-devices) are the key instance in flespi responsible for the transformation of…
+- [flespi Protocols API](https://apis.io/apis/flespi/flespi-protocols-api/) — Full [list of available channel protocols](https://flespi.com/protocols) you can find by the link. A…
+- [flespi Streams API](https://apis.io/apis/flespi/flespi-streams-api/) — [Streams](https://flespi.com/kb/stream-forward-data-from-gateway) push messages into third-party platforms via different protocols. It is possible to…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [flespi Agentic Access](https://apis.io/agentic-access/flespi/flespi-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [flespi API Rules](https://apis.io/rules/flespi/flespi-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [flespi Authentication](https://apis.io/security/flespi/flespi-authentication/)
+- [flespi Domain Security](https://apis.io/security/flespi/flespi-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [flespi Plans Pricing](https://apis.io/plans/flespi/flespi-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://flespi.com/)
+- [Documentation](https://flespi.com/docs)
+- [API reference](https://flespi.com/rest-api)
+- [Pricing](https://flespi.com/pricing)
+- [Sign up](https://flespi.com/blog/register-telemetry-data-from-iridium-device)
+- [Support](https://flespi.com/support)
+- [Blog](https://flespi.com/blog)
+- [Terms of service](https://flespi.com/terms-of-use)
+- [Privacy policy](https://flespi.com/privacy-policy)
+- [GitHub](https://github.com/flespi-software)
+- [Status](https://flespi.com/status)
+
+## API Evangelist rating
+
+**Kin Score 54.0** — developing · rubric 0.27.0 · scored 2026-11-15
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 47.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 73.2 |
+
+**Agent readiness 30.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/flespi/](https://apis.io/providers/flespi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for flespi: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/flespi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
